@@ -1,0 +1,109 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    
+ }
+ 
+ h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+ }
+
+h3 {
+    font-weight: bold;
+    color: white;
+}
+
+.abt {
+
+     background-color: #FF8303;
+     padding: 1%;
+     color:black;
+ }
+
+#abouts{
+    padding: 3%;
+}
+
+.container{
+    padding: 3%;
+}
+
+.navbar {
+    padding: 1rem;
+    
+}
+
+.col1{
+
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+#hosp{
+
+    padding: 3%;
+    text-align: left;
+}
+
+#services{
+    padding: 3%;
+    height: auto;
+    background-color: #FF8303;
+    text-align: center;
+
+}
+
+.service{
+    color: white;
+}
+
+
+.service_container {
+
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+  }
+  .item {
+    font-size: 2rem;
+    line-height: 1;
+    text-align: center;
+    border-radius: 25px;
+    padding: 5%;
+    background-color: #ffa74e;
+    border: 3px hidden ;
+    margin: 4%; 
+    flex-grow: 1;
+  }
+
+
+/* Modify the backgorund color */
+.navbar-custom {
+    background-color: #FF8303;
+}
+.nav-item{
+    font-size: 1.25rem;
+}
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.carousel-item{
+    height: auto;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+ol.carousel-indicators li.active {
+    background: black;
+}
+  
+  
