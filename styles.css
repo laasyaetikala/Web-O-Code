@@ -1,1 +1,52 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    color: white;
+ }
+ 
+ h1,h4 {
+    font-size: 2rem;
+    line-height: 1.5;
+ }
 
+h3 {
+    font-weight: bold;
+}
+
+.abt {
+
+     background-color: #72147E;
+     padding: 1%;
+ }
+
+.navbar {
+    padding: 1rem;
+    
+}
+
+
+/* Modify the backgorund color */
+.navbar-custom {
+    background-color: #72147E;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.carousel-item{
+    height: 510px;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+ol.carousel-indicators li.active {
+    background: black;
+}
+  
+  
