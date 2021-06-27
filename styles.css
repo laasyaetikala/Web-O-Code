@@ -16,15 +16,12 @@ h3 {
 }
 
 .abt {
-
-     background-color: #FF8303;
-     padding: 1%;
-     color:black;
+    font-size: 3rem;
+     color: #FF8303;
+     padding: 3%;
  }
 
-#abouts{
-    padding: 3%;
-}
+
 
 .container{
     padding: 3%;
@@ -36,15 +33,19 @@ h3 {
 }
 
 .col1{
-
-    height: 200px;
-    width: 200px;
     text-align: center;
 }
 
-#hosp{
+.col-sm-4{
+    padding-top: 0%;
+    padding-left: 1%;
+    background-color: #ffa74e;
+    font-size: 2rem;
+}
 
-    padding: 3%;
+#hosp{
+    width: 80%;
+    padding-right: 3%;
     text-align: left;
 }
 
@@ -87,9 +88,7 @@ h3 {
 .nav-item{
     font-size: 1.25rem;
 }
-.container-fluid {
-    padding: 7% 15%;
-}
+
 
 .carousel-item{
     height: auto;
@@ -105,5 +104,18 @@ p {
 ol.carousel-indicators li.active {
     background: black;
 }
-  
-  
+.form-row,.form-group{
+    text-align: left;
+}
+.qu{
+    font-size: 2rem;
+}
+#contact{
+    margin-right:2%;
+}
+.time{
+    font-size: 1.5rem;
+}
+.book{
+    font-size:1rem;
+}
