@@ -16,10 +16,9 @@ h3 {
 }
 
 .abt {
-
-     background-color: #FF8303;
-     padding: 1%;
-     color:black;
+    font-size: 3rem;
+     color: #FF8303;
+     padding: 3%;
  }
 
 #abouts{
@@ -43,8 +42,9 @@ h3 {
 }
 
 #hosp{
-
-    padding: 3%;
+    height: 400px;
+    width: 600px;
+    padding-right: 3%;
     text-align: left;
 }
 
@@ -105,5 +105,7 @@ p {
 ol.carousel-indicators li.active {
     background: black;
 }
-  
-  
+
+.col-4{
+    background-color: #ffa74e;
+}

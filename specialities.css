@@ -1,0 +1,61 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    
+ }
+ 
+ h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+ }
+
+h3 {
+    font-weight: bold;
+    color: white;
+}
+
+.container{
+    padding: 3%;
+}
+
+.spl{
+    font-size: calc(100% + 1vw + 1vh);
+    color: #FF8303;
+}
+
+.img{
+    font-size: 2rem;
+    color: #FF8303;
+
+}
+
+.navbar {
+    padding: 1rem;
+    
+}
+
+.service{
+    color: white;
+}
+
+.row{
+    padding: 3%;
+}
+
+
+
+
+/* Modify the backgorund color */
+.navbar-custom {
+    background-color: #FF8303;
+}
+.nav-item{
+    font-size: 1.25rem;
+}
+
+.loc{
+    font-size: 3rem;
+    padding: 2%;
+
+}
