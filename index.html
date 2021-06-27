@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript" src="external.js"></script>
     <title>HealthCare Hospitals</title>
+    <script type="text/javascript">
+      $(document).ready(function() {
+          $('#register').attr("disabled", true);
+      });
+    </script>   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
@@ -20,7 +24,7 @@
     
         <!-- Nav Bar -->
         <nav class="navbar navbar-custom navbar-expand-md navbar-dark">
-            <a class="navbar-brand" href="index.html"><h3>Healthcare<br> Hospitals</h3></a>
+            <a class="navbar-brand" href="index.html"><h3>HealthCare<br> Hospitals</h3></a>
              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -55,13 +59,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="blog.html"><b>Blog</b></a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html"><b>Login</b></a>
+              </li>
             </ul>
          </div>
         </nav>
-    
-        <!-- Title -->
-        
-    
       </section>
 
 
@@ -110,9 +113,9 @@
                   </div>
                   <div class="col-sm-6">
                     <p id="abouts">
-                      The Healthcare Hospitals Group is a multispecialty healthcare provider, with 4 hospitals serving 4 cities across 2 states of India. 
-                      Healthcare Hospitals delivers comprehensive care in more than 8 specialties in tertiary care settings.
-                      Adopting a service-oriented delivery model, Healthcare Hospitals provides cost-effective medical care, 
+                      The HealthCare Hospitals Group is a multispecialty HealthCare provider, with 4 hospitals serving 4 cities across 2 states of India. 
+                      HealthCare Hospitals delivers comprehensive care in 8 specialties in tertiary care settings.
+                      Adopting a service-oriented delivery model, HealthCare Hospitals provides cost-effective medical care, 
                       with an uncompromising commitment to its core purpose, “To provide care that people trust.”
                     </p>
                   </div>
@@ -125,7 +128,6 @@
     <!-- Services -->
 
         <section id="services">
-        <div class="service"><h4>How can we help you?</h4></div><br><br>
         <div class="service"><h1>Our Services</h1></div>
         <div class="service_container">
             <div class="item item-1">General Health</div>
@@ -152,7 +154,10 @@
             Sunday: Closed
           </div><br><br>
           <div class="book">
-            <button type="submit" class="btn btn-light">Book Online Appointment</button>
+            <button class="btn btn-light">
+              <a type="button" href="login.html">Book Online Appointment</a>
+             </button> 
+          
           </div><br>
         </div>
         <div class="col-sm-8">
@@ -162,7 +167,7 @@
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="inputfn">First Name</label>
-                <input type="text" class="form-control" id="inputEmail4" placeholder="first name">
+                <input type="text" class="form-control" id="inputEmail4" placeholder="first name" required>
               </div>
               <div class="form-group col-md-6">
                 <label for="inputln">Last Name</label>
@@ -171,16 +176,19 @@
             </div>
             <div class="form-group">
               <label for="inputemail">Email</label>
-              <input type="email" class="form-control" id="inputAddress" placeholder="email"><br>
+              <input type="email" class="form-control" id="inputAddress" placeholder="email" required><br>
               <label for="inputq">Add Comments</label>
-              <textarea class="form-control" rows="4" id="comment"></textarea><br>
-              <button type="submit" class="btn btn-warning">Submit</button>
+              <textarea class="form-control" rows="4" id="comment" required></textarea><br>
+              <button type="submit" class="btn btn-secondary">Submit</button>
             </div>
             
             
           </form>
       </div>
     </section>
+
+
+
 
     <!-- Footer -->
 

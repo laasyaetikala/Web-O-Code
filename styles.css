@@ -1,13 +1,14 @@
 body {
     font-family: 'Dosis', sans-serif;
     text-align: center;
-    
+    background-image: url(bg.jpeg);
+    background-size: cover;
  }
  
  h1 {
     font-size: 3rem;
     line-height: 1.5;
-    color: white;
+    color: black;
  }
 
 h3 {
@@ -39,7 +40,6 @@ h3 {
 .col-sm-4{
     padding-top: 0%;
     padding-left: 1%;
-    background-color: #ffa74e;
     font-size: 2rem;
 }
 
@@ -50,9 +50,9 @@ h3 {
 }
 
 #services{
-    padding: 3%;
-    height: auto;
-    background-color: #FF8303;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: auto;    
     text-align: center;
 
 }
@@ -63,8 +63,6 @@ h3 {
 
 
 .service_container {
-
-    padding: 2%;
     display: flex;
     flex-direction: row;
   }
@@ -74,7 +72,7 @@ h3 {
     text-align: center;
     border-radius: 25px;
     padding: 5%;
-    background-color: #ffa74e;
+    background-color: rgb(162, 219, 250,0.4);
     border: 3px hidden ;
     margin: 4%; 
     flex-grow: 1;
@@ -83,7 +81,7 @@ h3 {
 
 /* Modify the backgorund color */
 .navbar-custom {
-    background-color: #FF8303;
+    background-color: #68B0AB;
 }
 .nav-item{
     font-size: 1.25rem;
